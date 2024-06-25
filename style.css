@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  
+  }
+
+
+
+
+.nav {
+    background-color: #1a2224;
+    padding: 25px 20px;
+}
+
+ .head {
+    display: flex;
+    
+}
+
+.logo {
+    height: 30px;
+    padding-left: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+
+
+.menu img {
+    height: 20px;
+    float: right;
+
+    
+}
+.carosel img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.row {
+    color: white;
+    margin-left: 20px;
+  }
+
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 160px;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.08);
+  }
+  .row__posters::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+.footer-description, .footer-faq, .footer-categories, .footer-bottom {
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    padding: 3cqh;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1A2224 ;
+    color: #717A7B
+    
+    
+
+}
+
+.description-item {
+    width: 48%;
+}
+
+.footer-description h3 {
+    margin: 0;
+    color: white;
+}
+
+.footer-description p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-description a {
+    
+    
+    font-size: 14px;
+}
+
+.footer-faq{
+    background-color: #1A2224;
+    padding: 30px;
+
+}
+
+
+.footer-faq h3 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.footer-faq ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    color: white;
+}
+
+.footer-faq ul li {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-categories {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A2224;
+    padding: 40px;
+    
+    
+
+}
+
+.category-item {
+    width: 23%;
+}
+
+.footer-categories h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-categories ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-categories ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #717A7B;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    height: 30px;
+}
+.footer-sentance{
+    height: 20px;
+    padding-right: 30%;
+
+}
+
+
+.footer-social img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer-download img{
+    height: 40px;
+    
+}
+.footer-download .qr{
+    height: 60;
+}
