@@ -19,6 +19,16 @@ body {
     display: flex;
     
 }
+.log{
+   position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+ 
+.amazon{
+    margin-right: 36px;
+}
 
 .logo {
     height: 30px;
@@ -177,9 +187,9 @@ body {
 }
 
 .footer-bottom {
+    
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 30px;
 }
 
 .footer-logo {
@@ -187,20 +197,27 @@ body {
 }
 .footer-sentance{
     height: 20px;
-    padding-right: 30%;
+    width: auto;
+    padding-right: 20px;
+    
 
 }
 
 
 .footer-social img {
-    height: 30px;
-    margin-left: 10px;
+    height: 40px;
+    margin-right: 5px;
+    
+    
 }
 
 .footer-download img{
     height: 40px;
+    margin-right: 10px;
     
 }
-.footer-download .qr{
-    height: 60;
+.qr{
+   
+
+    padding-right: 430px;
 }
