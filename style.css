@@ -15,9 +15,10 @@ body {
   display: flex;
 }
 .log {
-  position: relative;
+  
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-left: 20%;
 }
 
@@ -32,7 +33,7 @@ body {
 
 .menu {
   display: flex;
-  gap: 20px;
+  gap: 20px
 }
 
 .menu a {
@@ -66,39 +67,43 @@ body {
 
 .row__posters {
   display: flex;
-  overflow-y: hidden;
-  overflow-x: scroll;
+  
+  
   padding: 20px;
 }
 
 .row__poster:hover {
-  transform: scale(1.08);
-}
-.row__posters::-webkit-scrollbar {
-  display: none;
+  transform: scale(1.08)
 }
 
 .footer-description,
 .footer-faq,
 .footer-categories,
 .footer-bottom {
+  margin: 40px;
   margin-bottom: 20px;
+  border-radius: 5px;
+  
 }
 
 .footer-description {
-  padding: 3cqh;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
+  
   background-color: #1a2224;
   color: #717a7b;
+  
 }
 
 .description-item {
-  width: 48%;
+  padding-left: 10px;
+  border-left: 3px solid #ff0066;
+  
 }
 
 .footer-description h3 {
-  margin: 0;
+  
   color: white;
 }
 
@@ -166,27 +171,31 @@ body {
 
 .footer-bottom {
   display: flex;
-  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+   
 }
-
-.footer-logo {
+.footer-logo{
   height: 30px;
-}
-.footer-sentance {
-  height: 20px;
   width: auto;
-  padding-right: 20px;
+}
+.footer-sentance{
+  height: 20px;
+  width: auto; 
 }
 
-.footer-social img {
+.footer-download img{
   height: 40px;
   margin-right: 5px;
+  margin-left: 5px;
+}
+.qr{
+  min-height: 60px;
+  padding-right: 400px;
 }
 
-.footer-download img {
+.footer-social img{
   height: 40px;
-  margin-right: 10px;
-}
-.qr {
-  padding-right: 430px;
+  margin-right:5px;
+
 }
